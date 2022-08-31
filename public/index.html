@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content: https://ssl.gstatic.com; 
+    media-src * blob: 'self' http://* 'unsafe-inline' 'unsafe-eval'; 
+    style-src * 'self' 'unsafe-inline'; 
+    img-src * 'self' data: content:; 
+    connect-src * blob:;">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>计算器</title>
+</head>
+<body>
+    <div class="calculate">
+        <div class="header">
+            计算器
+        </div>
+        <div class="display-area">
+            <div class="equation"> 3 * 2 - 2 </div>
+            <div class="result" id="result">4</div>
+        </div>
+        <div class="keyboard-area" id="keyboard-area">
+            
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
